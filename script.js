@@ -3,7 +3,7 @@ const $canvas = document.querySelector("#canvas"),
     $btnLimpiar = document.querySelector("#btnLimpiar"),
 const contexto = $canvas.getContext("2d");
 const COLOR_PINCEL = "black";
-const COLOR_FONDO = "white";
+const COLOR_FONDO = "blue";
 const GROSOR = 2;
 let xAnterior = 0, yAnterior = 0, xActual = 0, yActual = 0;
 const obtenerXReal = (clientX) => clientX - $canvas.getBoundingClientRect().left;
